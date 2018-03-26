@@ -1,0 +1,1 @@
+global.talktorats2 = true;
