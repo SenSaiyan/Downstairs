@@ -4,3 +4,4 @@ text3 = "Talk to more charactters to increase your score!";
 draw1 = true;
 draw2 = false;
 draw3 = false;
+audio_stop_sound(song1);

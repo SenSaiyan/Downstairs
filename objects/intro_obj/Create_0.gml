@@ -2,13 +2,15 @@
 // You can write your code in this editor
 event_inherited();
 
+audio_play_sound(whispers_sd,10,true);
+
 text = "";
 text[0] = "My favorite game is pretending!";
 text[1] = "I like to pretend that I am a princess.";
 text[2] = "Instead of people though, my royal subjects are animals and bugs.";
 text[3] = "Those are my favorites!";
 text[4] = "They are my favorites because they";
-text[5] = "THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY THEY ";
+text[5] = "KEEP PEOPLE AWAY";
 text[6] = "...";
 text[7] = "Oops! I mean...";
 text[8] = "...";

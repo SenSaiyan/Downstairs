@@ -20,6 +20,9 @@ if (place_meeting(x, y + 1, invis_wall_obj) && key_up){
 	vsp = -14
 }
 
+var vsp_final = vsp + vsp_carry;
+vsp_carry = 0;
+
 if (place_meeting(x + hsp, y, brown_wall_obj)){
 	while(!place_meeting(x+sign(hsp), y, brown_wall_obj)){
 		x = x + sign(hsp);

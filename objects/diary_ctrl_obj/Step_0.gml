@@ -38,12 +38,14 @@ if (keyboard_check_pressed(vk_space)){
 		page += 1;
 		charCount = 0;
 	} else if (counter > 13){
-		show_message("i have aids");
+		//show_message("i have aids");
+		audio_stop_all();
 		room_goto(lvl2ratbedroom);
-		show_message("uh oh");
+		//show_message("uh oh");
 	} else {
-		show_message("i have aids");
+		//show_message("i have aids");
+		audio_stop_all();
 		room_goto(lvl2ratbedroom);
-		show_message("uh oh");
+		//show_message("uh oh");
 	}
 }

@@ -45,7 +45,7 @@ Key_Left = keyboard_check(ord("A"));
 Key_Right = keyboard_check(ord("D"));
 Key_Up = keyboard_check(ord("W"));
 Key_Down = keyboard_check(ord("S"));
-//wadsawdsawdwdawdsawdsawdsawdsawdsawdKey_Sprint = keyboard_check(vk_lshift);
+//Key_Sprint = keyboard_check(vk_lshift);
  
 key_hor = Key_Right - Key_Left;
 key_vert = Key_Down - Key_Up;

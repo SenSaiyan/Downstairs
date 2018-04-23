@@ -30,7 +30,13 @@
         "934439d5-d48b-4538-bc78-ffb59aabd2c0",
         "f42de426-a08d-47e8-8460-bb2f8b5573ff",
         "337d16a9-2307-4f75-98a8-3b30fd644ef6",
-        "e3680fd0-6eab-460e-acc7-06580a2b4646"
+        "e3680fd0-6eab-460e-acc7-06580a2b4646",
+        "bcc7a850-3a8d-4bf8-9cf6-806c9ba3fbb7",
+        "ca77fcdf-91a2-4960-bbe2-bac2c2714c59",
+        "5bf5dcc7-b09e-4d1c-bc36-e152c1b558c8",
+        "f1c38d04-4ec3-40fe-8b02-48b9137aee27",
+        "f0f2d4d8-977a-41b5-adad-dd75c1614e66",
+        "a15b2fc6-1941-4ef0-8bcd-1dc568cb8176"
     ],
     "filterType": "GMObject",
     "folderName": "Level 2",

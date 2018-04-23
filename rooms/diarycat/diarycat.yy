@@ -2,7 +2,7 @@
 {
     "name": "diarycat",
     "id": "f336ebe2-36f1-4c83-8326-9b4ae6c920e8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

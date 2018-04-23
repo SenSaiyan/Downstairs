@@ -8,3 +8,5 @@ global.talktorats1 = false;
 global.talktorats2 = false;
 global.talktorats3 = false;
 global.doorfix = false;
+audio_stop_all();
+audio_play_sound(spooky_sd,10,false);

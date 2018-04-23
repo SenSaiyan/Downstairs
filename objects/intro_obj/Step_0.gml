@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (counter > 13){
 	//show_message("i have aids");
 	room_goto(lvl1intro);
