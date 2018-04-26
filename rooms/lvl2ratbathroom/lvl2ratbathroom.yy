@@ -2,7 +2,7 @@
 {
     "name": "lvl2ratbathroom",
     "id": "571c2176-d096-4178-abc2-430801679ea8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

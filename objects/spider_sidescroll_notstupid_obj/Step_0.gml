@@ -12,9 +12,9 @@ vsp = vsp + grav;
 
 hsp = move * walkspd;
 
-if hsp == 0{
+/*if hsp == 0{
 	glitch_ctrl_obj.intensity = .37;
-}
+}*/
 
 if (place_meeting(x, y + 1, invis_wall_obj) && key_up){
 	vsp = -14
@@ -27,11 +27,47 @@ if (place_meeting(x + hsp, y, invis_wall_obj)){
 	hsp = 0;
 }
 
+if (place_meeting(x, y + 1, barrier_obj) && key_up){
+	vsp = -14
+}
+
+if (place_meeting(x + hsp, y, barrier_obj)){
+	while(!place_meeting(x+sign(hsp), y, barrier_obj)){
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
+if (place_meeting(x, y + 1, brown_wall_obj) && key_up){
+	vsp = -14
+}
+
+if (place_meeting(x + hsp, y, brown_wall_obj)){
+	while(!place_meeting(x+sign(hsp), y, brown_wall_obj)){
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
 x = x + hsp;
-glitch_ctrl_obj.intensity+=0.03;
+//glitch_ctrl_obj.intensity+=0.03;
 
 if (place_meeting(x, y + vsp, invis_wall_obj)){
 	while(!place_meeting(x, y+sign(vsp), invis_wall_obj)){
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
+if (place_meeting(x, y + vsp, barrier_obj)){
+	while(!place_meeting(x, y+sign(vsp), barrier_obj)){
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
+if (place_meeting(x, y + vsp, brown_wall_obj)){
+	while(!place_meeting(x, y+sign(vsp), brown_wall_obj)){
 		y = y + sign(vsp);
 	}
 	vsp = 0;

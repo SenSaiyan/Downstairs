@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-/*key_left = keyboard_check(ord("A"));
+key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_down = keyboard_check(ord("S"));
 key_up = keyboard_check(ord("W"));
@@ -29,19 +29,23 @@ if (place_meeting(x + hsp, y, water_obj)){
 
 x = x + hsp;
 
-if (place_meeting(x, y + vsp, brown_wall_obj)||place_meeting(x, y + vsp, water_obj)){
+if (place_meeting(x, y + vsp, brown_wall_obj)){
 	while(!place_meeting(x, y+sign(vsp), brown_wall_obj)){
 		y = y + sign(vsp);
 	}
+	vsp = 0;
+}
+
+if (place_meeting(x, y + vsp, water_obj)){
 	while(!place_meeting(x, y+sign(vsp), water_obj)){
 		y = y + sign(vsp);
 	}
 	vsp = 0;
 }
 
-y = y + vsp;*/
+y = y + vsp;
 
-Key_Left = keyboard_check(ord("A"));
+/*Key_Left = keyboard_check(ord("A"));
 Key_Right = keyboard_check(ord("D"));
 Key_Up = keyboard_check(ord("W"));
 Key_Down = keyboard_check(ord("S"));
@@ -150,4 +154,4 @@ if place_meeting(x,y+(sign(key_vert)*8),water_obj) {
 	}
 	vsp = 0;
 }
-y += vsp;
+y += vsp;*/

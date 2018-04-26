@@ -26,8 +26,10 @@ if (place_meeting(x+hsp,y,lvl1wall_obj)){
 x += hsp;
 
 if (place_meeting(x, y-1, spider_obj_sidescroll_lvl1)){
-	if (spider_obj_sidescroll_lvl1.vsp > 90){
+	if (spider_obj_sidescroll_lvl1.vsp > 45){
 		audio_play_sound(splat_sd, 10, false);
-		room_restart();
+		//room_restart();
+		spider_obj_sidescroll_lvl1.x = 416;
+		spider_obj_sidescroll_lvl1.y = 1585;
 	}
 }
