@@ -10,7 +10,7 @@ textPart = string_copy(text[page], 1, charCount);
 draw_set_halign(fa_center);
 draw_set_color(c_yellow);
 
-if (!name){
+if (name == ""){
 	name = "???";
 } else {
 	draw_text(x + boxWidth/2,y+yBuffer,name);

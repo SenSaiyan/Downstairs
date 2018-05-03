@@ -5,7 +5,7 @@ if (talk == true){
 		myTextbox = instance_create_layer(x-150, y-220, "Text", textbox_obj);
 		myTextbox.text = myText;
 		myTextbox.creator = self;
-		myTextbox = myName;
+		myTextbox.name = myName;
 	}
 } else{
 	if (myTextbox != noone){

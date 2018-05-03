@@ -5,7 +5,7 @@ draw_set_halign(fa_center);
 draw_set_color(c_black);
 //draw_text(50,0, "test");
 //draw_text(1024/2, 200+(counter*10), text[counter]);
-if (counter <= 13){
+if (counter <= 4){
 	draw_text(1024/2, 200+(counter*10), text[counter]);
 }
 //draw_text(100,50, "test");

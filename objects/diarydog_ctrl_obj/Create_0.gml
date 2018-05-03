@@ -3,6 +3,7 @@
 charCount = 0;
 page = 0;
 counter = 0;
+global.camefromdiarydog = true;
 
 text[0] = "I love my puppy.";
 text[1] = "I love my puppy when he's sad.";

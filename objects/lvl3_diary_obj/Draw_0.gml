@@ -5,8 +5,10 @@ draw_set_halign(fa_center);
 draw_set_color(c_black);
 //draw_text(50,0, "test");
 //draw_text(1024/2, 200+(counter*10), text[counter]);
-if (counter <= 13){
+if (counter <= array_length_1d(text)-1){
 	draw_text(1024/2, 200+(counter*10), text[counter]);
+} else {
+	room_goto(theend);
 }
 //draw_text(100,50, "test");
 //shader_reset();

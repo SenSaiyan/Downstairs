@@ -8,5 +8,13 @@ global.talktorats1 = false;
 global.talktorats2 = false;
 global.talktorats3 = false;
 global.doorfix = false;
+
+global.camefromroachbedroom_lower = false;
+global.camefromroachbedroom_upper = false;
+global.camefromratbedroom_upper = false;
+global.camefromratbedroom_lower = false;
+global.camefromoutside = false;
+global.camefromdiarydog = false;
+global.camefromelectricgrid = false;
 audio_stop_all();
 audio_play_sound(spooky_sd,10,false);

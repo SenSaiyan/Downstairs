@@ -27,6 +27,15 @@
 }*/
 
 if (counter > 5){
+	audio_stop_all();
+	global.doorfix = false;
+	global.lvl1score = 0;
+	global.talktorats1 = false;
+	global.talktorats2 = false;
+	global.talktorats3 = false;
+	global.talktoroaches1 = false;
+	global.talktoroaches2 = false;
+	global.talktoroaches3 = false;
 	room_goto(intro);
 }
 
@@ -40,12 +49,28 @@ if (keyboard_check_pressed(vk_space)){
 	} else if (counter > 5){
 		//show_message("i have aids");
 		audio_stop_all();
-		room_goto(intro);
+	global.doorfix = false;
+	global.lvl1score = 0;
+	global.talktorats1 = false;
+	global.talktorats2 = false;
+	global.talktorats3 = false;
+	global.talktoroaches1 = false;
+	global.talktoroaches2 = false;
+	global.talktoroaches3 = false;
+	room_goto(intro);
 		//show_message("uh oh");
 	} else {
 		//show_message("i have aids");
 		audio_stop_all();
-		room_goto(intro);
+	global.doorfix = false;
+	global.lvl1score = 0;
+	global.talktorats1 = false;
+	global.talktorats2 = false;
+	global.talktorats3 = false;
+	global.talktoroaches1 = false;
+	global.talktoroaches2 = false;
+	global.talktoroaches3 = false;
+	room_goto(intro);
 		//show_message("uh oh");
 	}
 }

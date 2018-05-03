@@ -5,16 +5,6 @@
     "name": "rat_scientist_obj",
     "eventList": [
         {
-            "id": "3bc3b458-b457-4f19-a920-45d9c44d1f06",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "757065a4-773f-412d-ac3e-88526d063f6d"
-        },
-        {
             "id": "68c21349-e41d-424f-a0cc-1ff50e26df7a",
             "modelName": "GMEvent",
             "mvc": "1.0",

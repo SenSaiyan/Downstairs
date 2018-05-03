@@ -22,6 +22,8 @@ myText2[0] = "Did they respond?";
 myText2[1] = "...";
 myText2[2] = "...";
 myText2[3] = "I see. Thank you for all your help.";
-myText2[4] = "Meet my assistant outside, and he will help you for the rest of the way.";
+myText2[4] = "Meet my assistant outside on the Great Plateau, ";
+myText2[5] = "and he will help you for the rest of the way.";
 
-base[0] = "Meet my assistant outside, and he will help you for the rest of the way.";
+base[0] = "Meet my assistant outside on the Great Plateau,";
+base[1] = "and he will help you for the rest of the way.";

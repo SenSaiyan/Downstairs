@@ -2,5 +2,6 @@
 // You can write your code in this editor
 event_inherited();
 myName = "Roach";
-myText[0] = "It's a lesser-known secret,";
-myText[1] = "but there's a pathway to the outside in the bathroom north of here.";
+myText[0] = "The energy that the humans used to power this place long ago";
+myText[1] = "only works in certain places, like here!";
+myText[2] = "That's why the king chose this place as his domain.";

@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "book_obj",
     "eventList": [
-        
+        {
+            "id": "8f235b13-b5a3-4446-b25e-d042cd934b32",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "605f4896-daba-4ce4-98db-25596a7d9004",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "498aaa25-cd16-4f42-8af8-7c7ac9e02357"
+        },
+        {
+            "id": "e8bf66de-8f14-4d99-a879-4e7ae3dd7fed",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "498aaa25-cd16-4f42-8af8-7c7ac9e02357"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

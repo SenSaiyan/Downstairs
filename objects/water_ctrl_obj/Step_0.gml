@@ -2,4 +2,5 @@
 // You can write your code in this editor
 if (global.doorfix == true){
 	instance_destroy(water_obj);
+	instance_destroy(black_obj);
 }

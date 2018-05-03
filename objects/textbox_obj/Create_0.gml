@@ -9,3 +9,4 @@ stringHeight = string_height(text);
 creator = noone;
 charCount = 0;
 name = noone;
+orig_speed = 0;
