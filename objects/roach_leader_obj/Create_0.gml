@@ -22,6 +22,7 @@ myText1[5] = "While clearing the water may uncover more artifacts,";
 myText1[6] = "making that much noise will only call to the most dangerous animals in the forest right outside,";
 myText1[7] = "even more dangerous than Cat.";
 myText1[8] = "I simply cannot allow that possibility to happen.";
+myText1[9] = "Please tell the rats that we do not accept.";
 
 myText2[0] = "I'm sorry I cannot be of more use to you.";
 myText2[1] = "However, right outside this room is a small platform.";

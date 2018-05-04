@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 //vsp = dir * movespeed;
-mask_index = brown_wall_obj;
 vsp = dir * movespeed;
 
 if (sign(vsp)){
@@ -18,9 +17,12 @@ y += vsp;
 
 /*if (place_meeting(x,y-1,spider_obj_sidescroll)){
 	//if (!place_meeting(x, y+sprite_height+1, spider_obj_sidescroll)){
-		spider_obj_sidescroll.vsp_carry = vsp;
+		other.vsp_carry = vsp;
+		other.grav = 0;
 	//}
-} */
+}  else {
+	other.grav = 1;
+}*/
 
 
 	

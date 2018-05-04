@@ -4,43 +4,19 @@ if (place_meeting(x, y, spider_obj_topdown_lvl2_obj) || place_meeting(x, y, spid
 	if (keyboard_check_pressed(vk_space)){
 		if(myTextbox == noone){
 			myTextbox = instance_create_layer(x-150, y-220, "Text", textbox_obj);
-			//if (global.talktoroaches1==false){
-			/*if (global.talktorats1==false){
-				global.talktoroaches1 = true;
-				myTextbox.text = myText;
-			} else if (global.talktorats1==true){
+			global.talktoroaches1 = true;
+			if (global.talktorats1==true){
 				global.talktoroaches2 = true;
+				//if (global.talktorats2==true){
 				myTextbox.text = myText1;
-			} else if (global.talktorats2==true){
-				global.talktoroaches2 = false;
+				//}
 				//global.talktoroaches3 = true;
-				//global.talktorats3 = true;
-				myTextbox.text = myText2;
 			} else {
-				myTextbox.text = base;
+				//show_message()
+				myTextbox.text = myText;
 			}
 			myTextbox.creator = self;
-			myTextbox.name = myName;
-		}
-	}*/
-	global.talktoroaches1 = true;
-		if (global.talktorats1==true){
-			global.talktoroaches2 = true;
-			if (global.talktorats2==true){					
-				if (global.talktoroaches3 = true){
-					myTextbox.text = myText3;
-				} else {
-					myTextbox.text = myText2;
-				}
-				global.talktoroaches3 = true;
-			} else {
-				myTextbox.text = myText1;
-			}
-		} else {
-			myTextbox.text = myText;
-		}
-		myTextbox.creator = self;
-		myTextbox.name = myName;		
+			myTextbox.name = myName;		
 		}
 	}
 } else{

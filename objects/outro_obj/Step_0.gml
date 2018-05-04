@@ -36,7 +36,16 @@ if (counter > 5){
 	global.talktoroaches1 = false;
 	global.talktoroaches2 = false;
 	global.talktoroaches3 = false;
-	room_goto(intro);
+	global.camefromroachbedroom_lower = true;
+	global.camefromroachbedroom_upper = false;
+	global.camefromratbedroom_upper = false;
+	global.camefromratbedroom_lower = false;
+	global.camefromoutside = false;
+	global.camefromdiarydog = false;
+	global.camefromelectricgrid = false;
+	global.camefromflashback = false;
+	
+	room_goto(lvl1intro);
 }
 
 if (keyboard_check_pressed(vk_space)){

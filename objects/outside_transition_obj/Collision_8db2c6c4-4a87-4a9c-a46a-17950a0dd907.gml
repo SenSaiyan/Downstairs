@@ -10,5 +10,6 @@ global.camefromratbedroom_lower = false;
 global.camefromoutside = true;
 global.camefromdiarydog = false;
 global.camefromelectricgrid = false;
+global.camefromflashback = false;
 
 room_goto(lvl2_hallway);

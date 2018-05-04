@@ -19,7 +19,8 @@
         "498aaa25-cd16-4f42-8af8-7c7ac9e02357",
         "270958d7-1404-4868-b495-e967ba2a763d",
         "ca77fcdf-91a2-4960-bbe2-bac2c2714c59",
-        "f0f2d4d8-977a-41b5-adad-dd75c1614e66"
+        "f0f2d4d8-977a-41b5-adad-dd75c1614e66",
+        "d1fa39a3-5959-40e9-9405-c84a015d659a"
     ],
     "filterType": "GMObject",
     "folderName": "Room Transitions",

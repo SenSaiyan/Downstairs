@@ -3,7 +3,7 @@
 
 if (counter > 13){
 	//show_message("i have aids");
-	room_goto(lvl1intro);
+	room_goto(lvl1start);
 	//show_message("uh oh");
 }
 

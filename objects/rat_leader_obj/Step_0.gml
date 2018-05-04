@@ -20,16 +20,14 @@ if (place_meeting(x, y, spider_obj_topdown_lvl2_obj) || place_meeting(x, y, spid
 			}*/
 			global.talktorats1 = true;
 			if (global.talktoroaches1==true){
-				global.talktorats2 = true;
+				//global.talktorats2 = true;
 				if (global.talktoroaches2==true){					
-					if (global.talktorats3 = true){
-						myTextbox.text = myText3;
-					} else {
+					//if (global.talktorats3 = true){
 						myTextbox.text = myText2;
-					}
+					//}
 					global.talktorats3 = true;
 				} else {
-					myTextbox.text = myText1;
+					myTextbox.text = myText;
 				}
 			} else {
 				myTextbox.text = myText;

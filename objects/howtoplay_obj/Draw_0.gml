@@ -15,5 +15,6 @@ if (draw2){
 }
 
 if (draw3){
-	draw_text(10,10,text3);
+	draw_text(10,10,text4);
 }
+

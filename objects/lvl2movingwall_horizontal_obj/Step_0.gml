@@ -19,6 +19,10 @@ if (place_meeting(x+hsp,y,lvl2movingwall_horizontal_obj)){
 }
 x += hsp;
 
+if (global.doorfix == true) {
+	instance_destroy();
+}
+
 /*if (place_meeting(x,y-1,spider_obj_sidescroll)){
 	spider_obj_sidescroll.hsp_carry = hsp;
 }*/

@@ -6,44 +6,44 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 1562,
-    "bbox_left": 0,
-    "bbox_right": 2999,
-    "bbox_top": 0,
+    "bbox_bottom": 1499,
+    "bbox_left": 33,
+    "bbox_right": 2966,
+    "bbox_top": 85,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "dc1aab98-e5fc-4226-9df5-d9e0b6c36b97",
+            "id": "870f77aa-d7e6-4ee4-a6ab-2ee184b1a614",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "cd35ddce-4d34-44d0-93b4-6bf8b7470fb6",
             "compositeImage": {
-                "id": "c24d3494-1915-489a-aa08-c11e163da3c6",
+                "id": "e937f675-4914-443e-abc2-430c2f7cf013",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "dc1aab98-e5fc-4226-9df5-d9e0b6c36b97",
+                "FrameId": "870f77aa-d7e6-4ee4-a6ab-2ee184b1a614",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "ad692572-00bf-4cc5-9687-a7c859acdeed",
+                    "id": "29088771-2faa-4f9e-96ba-63a305fec1e1",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "dc1aab98-e5fc-4226-9df5-d9e0b6c36b97",
-                    "LayerId": "73e49be2-2960-4182-af7e-365e0adef736"
+                    "FrameId": "870f77aa-d7e6-4ee4-a6ab-2ee184b1a614",
+                    "LayerId": "3786e2c8-5118-4cf0-8497-ed8c451a78ba"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 1563,
+    "height": 1500,
     "layers": [
         {
-            "id": "73e49be2-2960-4182-af7e-365e0adef736",
+            "id": "3786e2c8-5118-4cf0-8497-ed8c451a78ba",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "cd35ddce-4d34-44d0-93b4-6bf8b7470fb6",

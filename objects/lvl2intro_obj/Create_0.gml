@@ -16,5 +16,7 @@ global.camefromratbedroom_lower = false;
 global.camefromoutside = false;
 global.camefromdiarydog = false;
 global.camefromelectricgrid = false;
+global.camefromflashback = false;
 audio_stop_all();
 audio_play_sound(spooky_sd,10,false);
+instr = "";

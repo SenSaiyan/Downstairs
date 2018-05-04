@@ -6,7 +6,7 @@ draw_set_color(c_black);
 //draw_text(50,0, "test");
 //draw_text(1024/2, 200+(counter*10), text[counter]);
 if (counter <= 13){
-	draw_text(1024/2, 200+(counter*10), text[counter]);
+	draw_text(1800/2, 200+(counter*10), text[counter]);
 }
 //draw_text(100,50, "test");
 //shader_reset();

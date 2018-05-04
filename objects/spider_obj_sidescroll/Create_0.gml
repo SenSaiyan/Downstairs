@@ -12,8 +12,8 @@ init_x = 0;
 
 if (room == lvl2_hallway){
 	if (global.camefromelectricgrid == true){
-		x = 9860;
-		y = 6800;		
+		x = 4700;
+		y = 4600;		
 	} else if (global.camefromratbedroom_upper == true){
 		x = 50;
 		y = 2600;
@@ -29,6 +29,9 @@ if (room == lvl2_hallway){
 	} else if (global.camefromdiarydog == true){
 		x = 3380;
 		y = 4620
+	} else if (global.camefromoutside == true){
+		x = 9520;
+		y = 8600;
 	}
 	
 } else if (room == lvl2roachbedroom){
@@ -40,6 +43,11 @@ if (room == lvl2_hallway){
 	if (global.camefromratbedroom_lower) {
 		x = 6800;
 		y = 3850;
+	}
+} else if (room == roach_outside){
+	if (global.camefromflashback == true){
+		x = 1000;
+		y = 735;
 	}
 }
 

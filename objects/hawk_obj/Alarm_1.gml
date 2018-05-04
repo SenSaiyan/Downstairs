@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-room_goto(flashback);
+if (global.camefromflashback == false){
+	room_goto(flashback);
+}

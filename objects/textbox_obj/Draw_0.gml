@@ -3,15 +3,15 @@
 draw_sprite(textbox_spr,0,x,y);
 //text = "ASDF";
 draw_set_font(consolas_fnt);
-if (charCount < string_length(text[page])){
+/*if (charCount < string_length(text[page])){
 	charCount += 1;
-}
-textPart = string_copy(text[page], 1, charCount);
+}*/
+//textPart = string_copy(text[page], 1, charCount);
 draw_set_halign(fa_center);
 draw_set_color(c_yellow);
 
 if (name == ""){
-	name = "???";
+	//draw_text(x + boxWidth/2,y+yBuffer,"Rat");
 } else {
 	draw_text(x + boxWidth/2,y+yBuffer,name);
 }

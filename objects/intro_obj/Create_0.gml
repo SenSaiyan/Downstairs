@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+global.lvl1score = 0;
 
 audio_play_sound(whispers_sd,10,true);
 
